@@ -1,0 +1,82 @@
+.title,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $color-base;
+  font-style: normal;
+  font-family: $base-title-font;
+  font-weight: 700;
+}
+
+h1,
+.title_h1 {
+  font-size: 26px;
+  @include media-breakpoint-up(md) {
+    font-size: 34px;
+  }
+}
+
+h2,
+.title_h2 {
+  font-size: 20px;
+  @include media-breakpoint-up(md) {
+    font-size: 26px;
+  }
+}
+
+h3,
+.title_h3 {
+  font-size: 16px;
+  @include media-breakpoint-up(lg) {
+    font-size: 24px;
+  }
+}
+
+h4,
+.title_h4 {
+  font-size: 14px;
+}
+
+h5,
+.title_h5 {
+  font-size: 14px;
+}
+
+.ttl {
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $color-base;
+  font-style: normal;
+  font-family: $base-title-font;
+  font-weight: 700;
+
+  &_h1 {
+    font-size: 18px;
+  }
+
+  &_h2 {
+    font-size: 16px;
+  }
+
+  &_h3 {
+    font-size: 15px;
+  }
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding: 0;
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+}

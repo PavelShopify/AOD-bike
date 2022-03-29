@@ -1,0 +1,69 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px,
+) !default;
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$container-gutter-width: 32px !default;
+$container-max-widths: (
+  xs: (
+    gutter-widths: 16px
+  ),
+  md: (
+    gutter-widths: 32px
+  ),
+  xl: (
+    max-width: 1440px,
+    gutter-widths: 32px
+  )
+) !default;
+$container-max-width: 1100px;
+
+// fonts
+$font-base: "Lato", sans-serif;
+$font-heading: "Lato", sans-serif;
+$font-family-base: $font-base;
+$base-title-font: $font-heading;
+
+// colors
+$red: #e43039;
+$dark-red: #9a1d1d;
+$light-red: #e44c54;
+$semi-dark-red: #d7151f;
+$light-green: #9ed15b;
+$dark-green: #0a8900;
+$light-blue: #97ccdf;
+$blue: #3e83d1;
+$dark-blue: #0b7bc1;
+$yellow: #f1cd3f;
+$light-yellow: #f7f3ef;
+$black: #232325;
+$light-black: #4d4959;
+$dark-gray: #333;
+$gray: #4d5256;
+$extra-gray: #d4d4d4;
+$medium-gray: #848789;
+$light-gray: #a9a9a9;
+$extra-medium-gray: #e6e6e6;
+$extra-light-gray: #f7f3ef;
+$white: #fff;
+$light-gray-2: #a5a5a5;
+
+// fonts
+
+$color-base: $medium-gray;
+$bg-base: $white;
+
+// animate
+$baseduration: 0.3s;
+$tabs-link-animate-duration: $baseduration;
+$tabs-content-animate-duration: $baseduration;
+
+// link
+$link-base-color: $red;
+$link-hover-base-color: $color-base;

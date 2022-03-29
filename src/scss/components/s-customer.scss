@@ -1,0 +1,63 @@
+.s-customer {
+  margin: 40px 16px;
+  max-width: 458px;
+  @include media-breakpoint-up(sm) {
+    margin: 100px auto;
+  }
+
+  &__btn {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    @include media-breakpoint-up(sm) {
+      max-width: none;
+      width: auto;
+    }
+  }
+
+  &_recover {
+    .s-customer__btn {
+      margin-top: 36px;
+    }
+  }
+
+  &_none {
+    display: none;
+  }
+
+  &__c-field {
+    max-width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @include media-breakpoint-up(sm) {
+      flex-direction: row;
+    }
+  }
+
+  &__list {
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  &__message {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

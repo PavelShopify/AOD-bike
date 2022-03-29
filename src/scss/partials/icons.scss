@@ -1,0 +1,18 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+
+  &_arrow-short {
+    width: calc(23 / 12 * 1em);
+  }
+
+  &_arrow-long {
+    width: calc(38 / 12 * 1em);
+  }
+
+  &_angle-down,
+  &_angle-up {
+    width: calc(16 / 10 * 1em);
+  }
+}

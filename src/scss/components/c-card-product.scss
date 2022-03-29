@@ -1,0 +1,20 @@
+.c-card-product {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  position: relative;
+
+  &__pict {
+    margin-bottom: 20px;
+  }
+
+  &__ttl {
+    margin-top: auto;
+    text-align: center;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+  }
+}

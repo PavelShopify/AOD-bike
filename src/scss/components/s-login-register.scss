@@ -1,0 +1,129 @@
+.s-log-reg {
+  &__reset {
+    padding: 20px 14px;
+    border: 3px solid #e43039;
+    line-height: 140%;
+    margin-top: 30px;
+    @include media-breakpoint-up(lg) {
+      line-height: 1;
+      padding: 15px 0 14px;
+      text-align: center;
+    }
+  }
+
+  &__title_h2 {
+    margin-top: 30px;
+    font-size: 26px;
+    font-family: $font-family-base;
+    font-weight: 700;
+    @include media-breakpoint-up(lg) {
+      display: block;
+      margin-top: 40px;
+    }
+  }
+
+  &__l-grid {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    @include media-breakpoint-up(lg) {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.s-login {
+  margin-bottom: 40px;
+  position: relative;
+
+  &:after {
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      content: "";
+      right: 20px;
+      bottom: 0;
+      top: 0;
+      background: $extra-medium-gray;
+      width: 1px;
+    }
+    @include media-breakpoint-up(xl) {
+      right: 80px;
+    }
+    @include media-breakpoint-up(xxl) {
+      right: 120px;
+    }
+  }
+
+  &__title_h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &__desc {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  &__forgot {
+    margin: 16px 0 30px;
+
+    &__lnk {
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+
+  &__c-field {
+    padding: 18px 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      padding-bottom: 36px;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: 400px;
+    }
+  }
+
+  &__list {
+    list-style-type: disc;
+    margin-top: 25px;
+    padding-left: 26px;
+  }
+
+  &__btn {
+    max-width: 100%;
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      min-width: 150px;
+      max-width: none;
+      width: auto;
+    }
+  }
+
+  &__lnk {
+    font-size: 16px;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.s-reg {
+  &__btn {
+    margin-top: 24px;
+    max-width: 100%;
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      min-width: 227px;
+      max-width: none;
+      width: auto;
+    }
+  }
+}
