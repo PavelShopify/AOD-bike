@@ -1,0 +1,26 @@
+.c-speaker {
+  &__desc {
+    padding: 20px 20px 70px;
+    @include media-breakpoint-up(lg) {
+      padding: 20px 32px 20px 59px;
+    }
+  }
+
+  &__post {
+    margin-left: -11px;
+    @include media-breakpoint-up(lg) {
+      margin-left: -50px;
+    }
+  }
+
+  &__title {
+    margin: 40px 0 82px;
+    @include media-breakpoint-up(md) {
+      margin: 40px 0;
+    }
+  }
+
+  &__c-nav-list {
+    margin-top: 20px;
+  }
+}

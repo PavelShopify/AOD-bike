@@ -1,0 +1,53 @@
+.s-collections {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  @include media-breakpoint-up(md) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  &__l-grid {
+    margin-top: 14px;
+    @include media-breakpoint-up(md) {
+      margin-top: 14px;
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    &__col {
+      margin-top: 40px;
+    }
+  }
+
+  &__card-title {
+    text-align: center;
+    margin-top: 15px;
+    @include media-breakpoint-up(md) {
+      margin-top: 20px;
+    }
+  }
+
+  &__card {
+    position: relative;
+
+    &:hover {
+      .s-collections__card-title {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__card-img-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__card-pict {
+    position: relative;
+    padding-top: percentage(calc(225 / 463));
+  }
+}
