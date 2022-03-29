@@ -1,0 +1,24 @@
+<div class="s-main-banner">
+	<img class=""></img>
+	<img src="{{ section.settings.image | img_url: '1600x', format: 'pjpg' }}" width="1600px" alt="{{ product.title  }}" class="s-main-banner__img" loading="lazy" />	
+</div>
+
+{% schema %}
+{
+	"name": "Main banner",
+	"tag": "section",
+	"settings": [
+		 {
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image",
+			"info": "Recommended image size 1600x800. Retina image size x2 3200x1600."
+		 }		 
+ ],
+	"presets": [
+		{
+			"name": "Main banner"
+		}
+	]
+}
+{% endschema %}
