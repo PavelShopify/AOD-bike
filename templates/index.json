@@ -1,13 +1,27 @@
 {
   "sections": {
-    "main-banner": {
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16485632729642b590": {
       "type": "s-main-banner",
       "settings": {
-       
+        "image": "shopify:\/\/shop_images\/main-banner.jpg"
       }
     }
   },
   "order": [
-    "s-main-banner"
+    "video",
+    "16485632729642b590"
   ]
 }
