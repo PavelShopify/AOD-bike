@@ -1,12 +1,13 @@
 .s-main-banner {
-	position: relative;
-	height: 100vh;
-	&__img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		left: 0;
-		top: 0;
-		object-fit: cover;
-	}
+  position: relative;
+  height: 100vh;
+
+  &__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
 }
