@@ -1,0 +1,64 @@
+<header class="s-header">
+	<div class="l-container s-header__l-container">
+		<div class="s-header__logo">
+			<a href="{{ routes.root_url }}" class="s-header__link">
+				{%- if section.settings.logo != blank -%}				  
+				  <img 
+					 src="{{ section.settings.logo | img_url: '94x' }}"
+					 loading="lazy"
+					 class="s-header__img"					
+					 alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+				  >
+				{%- else -%}
+				  {{ shop.name }}
+				{%- endif -%}
+			 </a>
+
+		</div>
+		{%- if section.settings.menu != blank -%}
+			<nav class="c-main-menu">
+				<div class="c-main-menu__menu-icon icon-menu">
+					<span></span>
+				</div>			
+					<div class="c-main-menu__body">
+						<ul class="c-main-menu__list">
+							{%- for link in linklists[section.settings.menu].links -%}
+								<li class="c-main-menu__item">
+									<a href="{{ link.url }}" class="c-main-menu__link">{{ link.title | escape }}</a>						
+								</li>
+							{%- endfor -%}
+							<li class="c-main-menu__item">
+								<a href="" class="c-main-menu__link">Work</a>						
+							</li>
+							<li class="c-main-menu__item">
+								<a href="" class="c-main-menu__link">Shop</a>						
+							</li>
+							<li class="c-main-menu__item">
+								<a href="" class="c-main-menu__link">Contact</a>						
+							</li>
+						</ul>
+					</div>
+			</nav>
+		{%- endif -%}
+	</div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header.name",
+  "class": "section-header",
+  "settings": [    
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "t:sections.header.settings.logo.label"
+    },    
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
+    }    
+  ]
+}
+{% endschema %}

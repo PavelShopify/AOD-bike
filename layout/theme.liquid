@@ -29,7 +29,7 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'Global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,7 +88,7 @@
     <!-- <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>   -->
-    {% section 'header' %}
+    {% section 's-header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>

@@ -893,3 +893,18 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+
+// Custom code 
+
+// Burger menu
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.icon-menu').forEach((burgerBut) => {
+    burgerBut.onclick = function(){
+      this.classList.toggle('active');
+      document.querySelector('.c-main-menu__body').classList.toggle('active');
+      document.querySelector('body').classList.toggle('lock');
+    }
+  });	
+ });
