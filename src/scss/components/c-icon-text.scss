@@ -6,5 +6,8 @@
   &__title {
     margin: 0 0 35px;
   }
-    
+
+  &__desc p {
+    font-size: inherit;
+  }
 }

@@ -43,7 +43,7 @@ body.lock {
     height: 20px;
     z-index: 3;
 
-    & span {
+    span {
       position: absolute;
       width: 100%;
       height: 2px;
@@ -93,7 +93,7 @@ body.lock {
       background-color: $white;
     }
 
-    & span {
+    span {
       transform: scale(0);
       background-color: $white;
     }
@@ -156,14 +156,6 @@ body.lock {
     @include media-breakpoint-up(md) {
       padding: 0 37.5px;
 
-      &:nth-of-type(2) {
-        padding: 0 110px 0 37.5px;
-      }
-
-      &:nth-of-type(3) {
-        padding: 0 37.5px 0 110px;
-      }
-
       &:after {
         content: "";
         width: 3px;
@@ -176,9 +168,15 @@ body.lock {
       }
 
       &:nth-of-type(2) {
+        padding: 0 110px 0 37.5px;
+
         &:after {
           display: none;
         }
+      }
+
+      &:nth-of-type(3) {
+        padding: 0 37.5px 0 110px;
       }
     }
   }

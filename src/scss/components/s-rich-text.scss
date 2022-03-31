@@ -3,9 +3,12 @@
 
   &__l-container {
     max-width: 1144px;
-    padding-top: 117px;
-    padding-bottom: 142px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
-    @include media-breakpoint-up(xl) {}
+    @include media-breakpoint-up(lg) {
+      padding-top: 117px;
+      padding-bottom: 142px;
+    }
   }
 }
