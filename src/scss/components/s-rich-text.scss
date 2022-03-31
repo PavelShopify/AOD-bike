@@ -1,0 +1,11 @@
+.s-rich-text {
+  background-color: $light-gray;
+
+  &__l-container {
+    max-width: 1144px;
+    padding-top: 117px;
+    padding-bottom: 142px;
+    text-align: center;
+    @include media-breakpoint-up(xl) {}
+  }
+}

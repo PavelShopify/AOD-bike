@@ -5,9 +5,14 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/main-banner.jpg"
       }
-    }
+    },
+      "rich-text": {
+        "type": "s-rich-text",
+        "settings": {
+        }
+      }     
   },
   "order": [
-    "16485632729642b590"
+    "16485632729642b590", "rich-text"
   ]
 }

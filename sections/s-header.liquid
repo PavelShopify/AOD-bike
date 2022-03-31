@@ -5,6 +5,8 @@
 				{%- if section.settings.logo != blank -%}				  
 				  <img 
 					 src="{{ section.settings.logo | img_url: '94x' }}"
+					 width="94"
+					 height="85"
 					 loading="lazy"
 					 class="s-header__img"					
 					 alt="{{ section.settings.logo.alt | default: shop.name | escape }}"

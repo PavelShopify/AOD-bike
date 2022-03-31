@@ -4,10 +4,10 @@ h2,
 h3,
 h4,
 h5 {
-  line-height: 1;
-  letter-spacing: 0.01em;
+  line-height: normal;
+  letter-spacing: 3.6px;
   text-transform: uppercase;
-  color: $color-base;
+  color: $light-black;
   font-style: normal;
   font-family: $base-title-font;
   font-weight: 700;
@@ -23,9 +23,9 @@ h1,
 
 h2,
 .title_h2 {
-  font-size: 20px;
+  font-size: 18px;
   @include media-breakpoint-up(md) {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
