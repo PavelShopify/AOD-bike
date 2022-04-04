@@ -1,0 +1,96 @@
+<div class="s-brand-banner1">
+	<div class="s-brand-banner1__l-grid l-grid {% if section.settings.layout == 'big_image_second' %} s-brand-banner1__l-grid_grid-reverse{% endif %}">
+		<div class="s-brand-banner1__col l-grid__col_lg-8 ">
+			<a href="{{ section.settings.link }}" class="s-brand-banner1__link">
+				{% if section.settings.logo != blank %} 
+				<span class="s-brand-banner1__logo-cont">
+					<img src="{{ section.settings.logo | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="s-brand-banner1__logo" loading="lazy">
+				</span>
+				{% endif %}
+				{% if section.settings.big_image != blank %} 					
+					<img src="{{ section.settings.big_image | image_url: width: 1067, height: 600 , format: 'pjpg' }}" alt="{{ product.title }}" width="1067" height="600"  class="s-brand-banner1__big-img" loading="lazy">
+				{% endif %}				
+			</a>
+			
+		</div>
+		<div class="s-brand-banner1__col l-grid__col_lg-4">
+			<div class="s-brand-banner1__content">
+				{% render 'c-icon-text-banner' %}
+			</div>
+			{% if section.settings.image != blank %}
+				<div class="s-brand-banner1__img-cont">
+					<img src="{{ section.settings.image | image_url: width: 533, height: 200 , format: 'pjpg' }}" alt="{{ product.title }}" width="533" height="200"  class="s-brand-banner1__img" loading="lazy">
+				</div>
+			{% endif %}				
+		</div>
+	</div>
+	
+</div>
+
+{% schema %}
+{
+	"name": "Brand banner two images",
+	"tag": "section",
+	"settings": [			
+		 {
+			"type": "image_picker",
+			"id": "big_image",
+			"label": "Big Image",
+			"info": "Recommended image size 1067x600. Retina image size x2 2134x1200."
+		 },
+		 {
+			"type": "select",
+			"id": "layout",
+			"options": [
+			  {
+				 "value": "big_image_first",
+				 "label": "Big image first"
+			  },
+			  {
+				 "value": "big_image_second",
+				 "label": "Big image second"
+			  }			  
+			],
+			"default": "big_image_first",
+			"label": "Desktop big image placement",
+			"info": "Image first is the default mobile layout."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image",
+			"info": "Recommended image size 533x200. Retina imae size x2 1066x400."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "logo",
+			"label": "Logo Image"			
+		 },
+		 {
+			"type": "url",
+			"id": "link",
+			"label": "Brand link"
+		 },
+		 {
+			"type": "image_picker",
+			"id": "icon",
+			"label": "Icon"			
+		 },
+		 {
+			"type": "text",
+			"id": "title",
+			"label": "Heading"			
+		 },
+		 {
+			"type": "richtext",
+			"id": "paragraph",
+			"label": "Paragraph"
+		 }				  
+ ],
+	"presets": [
+		{
+			"name": "Brand banner two images"
+		}
+	]
+}
+{% endschema %}

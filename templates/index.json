@@ -13,10 +13,38 @@
         "title": "A new generation of vintage bike",
         "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <\/p>"
       }
+    },
+    "brand-banner1": {
+      "type": "s-brand-banner1",
+      "settings": {
+        "big_image": "shopify:\/\/shop_images\/brand-banner1-img-01.jpg",
+        "layout": "big_image_first",
+        "image": "shopify:\/\/shop_images\/brand-banner1-img-02.jpg",
+        "logo": "shopify:\/\/shop_images\/logo-banner1.png",
+        "link": "#",
+        "icon": "shopify:\/\/shop_images\/icon-frame.png",
+        "title": "Vintage oliva",
+        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
+      }
+    },
+    "16490718062676bc6a": {
+      "type": "s-brand-banner1",
+      "settings": {
+        "big_image": "shopify:\/\/shop_images\/brand-banner2-img-01.jpg",
+        "layout": "big_image_second",
+        "image": "shopify:\/\/shop_images\/brand-banner2-img-02.jpg",
+        "logo": "shopify:\/\/shop_images\/logo-banner2.png",
+        "link": "#",
+        "icon": "shopify:\/\/shop_images\/icon-crankset.png",
+        "title": "La boriosa",
+        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
+      }
     }
   },
   "order": [
     "16485632729642b590",
-    "rich-text"
+    "rich-text",
+    "brand-banner1",
+    "16490718062676bc6a"
   ]
 }

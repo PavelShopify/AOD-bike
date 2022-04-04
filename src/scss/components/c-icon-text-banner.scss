@@ -1,0 +1,25 @@
+.c-icon-text-banner {
+  &__icon {
+    margin: 0 0 31px;
+  }
+
+  &__title {
+    margin: 0 0 26px;
+  }
+
+  &__desc p {
+    font-size: inherit;
+    text-align: left;
+    line-height: 1.88;
+  }
+
+  &__desc::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 1px;
+    background-color: $light-gray;
+    margin-top: 40px;
+  }
+}
