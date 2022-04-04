@@ -1,6 +1,6 @@
 <div class="c-icon-text-banner">
 	{% if section.settings.icon != blank %} 
-		<img src="{{ section.settings.icon | image_url: width: 40, height: 30 , format: 'pjpg' }}" alt="{{ product.title }}" width="40" height="30"  class="c-icon-text-banner__icon" loading="lazy">
+		<img src="{{ section.settings.icon | img_url: 'master' , format: 'pjpg' }}" alt="{{ product.title }}" class="c-icon-text-banner__icon" loading="lazy">
 	{% endif %}
 	{% if section.settings.title != blank %} 	
 		<h2 class="c-icon-text-banner__title">{{ section.settings.title | escape }}</h2>

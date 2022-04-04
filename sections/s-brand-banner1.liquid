@@ -4,7 +4,7 @@
 			<a href="{{ section.settings.link }}" class="s-brand-banner1__link">
 				{% if section.settings.logo != blank %} 
 				<span class="s-brand-banner1__logo-cont">
-					<img src="{{ section.settings.logo | image_url: width: 113, height: 118 , format: 'pjpg' }}" alt="{{ product.title }}" width="113" height="118"  class="s-brand-banner1__logo" loading="lazy">
+					<img src="{{ section.settings.logo | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="s-brand-banner1__logo" loading="lazy">
 				</span>
 				{% endif %}
 				{% if section.settings.big_image != blank %} 					
@@ -64,8 +64,7 @@
 		 {
 			"type": "image_picker",
 			"id": "logo",
-			"label": "Logo Image",
-			"info": "Recommended image size 113x118. Retina icon size x2 226x236."
+			"label": "Logo Image"			
 		 },
 		 {
 			"type": "url",
@@ -75,8 +74,7 @@
 		 {
 			"type": "image_picker",
 			"id": "icon",
-			"label": "Icon",
-			"info": "Recommended icon size 52x43. Retina icon size x2 104x86."
+			"label": "Icon"			
 		 },
 		 {
 			"type": "text",
