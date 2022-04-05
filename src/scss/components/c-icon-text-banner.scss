@@ -13,8 +13,8 @@
     line-height: 1.88;
   }
 
-  &__desc::after {
-    content: '';
+  &__desc:after {
+    content: "";
     display: block;
     margin: 0 auto;
     width: 50px;
