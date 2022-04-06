@@ -908,3 +908,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });	
  });
+
+ // Swiper slider
+ import Swiper from 'swiper';
+ const swiper = new Swiper('.s-text-slider');
+ console.log(swiper);
+
+
+
+``
