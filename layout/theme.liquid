@@ -30,6 +30,9 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
     {{ content_for_header }}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -130,5 +133,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
