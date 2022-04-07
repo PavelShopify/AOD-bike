@@ -83,12 +83,22 @@
             "heading_grey": "\/  1 h",
             "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus tempore officia impedit pariatur facilis possimus neque, laboriosam aliquid voluptas eum reprehenderit repellendus corrupti eligendi velit veniam. Voluptates asperiores dolorem hic."
           }
+        },
+        "6e17ebf8-47d1-4167-a6ee-e74d77058cfa": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
+            "heading": "AOD New York  @aod",
+            "heading_grey": "\/  1 h 20 min",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eos repellat rerum, fugiat repudiandae quasi inventore itaque illo iusto doloremque!"
+          }
         }
       },
       "block_order": [
         "0ba0d207-7940-4612-b9a4-6bc1c470abec",
         "1bf6f7d4-f1f1-46cf-90a0-82f5007dcc57",
-        "d0d2fdf4-74f5-496c-8521-a27aa65beb4f"
+        "d0d2fdf4-74f5-496c-8521-a27aa65beb4f",
+        "6e17ebf8-47d1-4167-a6ee-e74d77058cfa"
       ],
       "settings": {
       }
