@@ -1,0 +1,133 @@
+<div class="s-items-banner">
+	<div class="s-items-banner__l-grid l-grid">
+		<div class="s-items-banner__col l-grid__col_lg-4">
+			<div class="c-block-item">
+				<div class="c-block-item__l-grid l-grid">
+					<div class="c-block-item__col l-grid__col-6">
+						{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-1 %}
+					</div>
+					<div class="c-block-item__col l-grid__col-6">
+						{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-2 %}
+					</div>					
+				</div>
+				<div class="c-block-item__img-cont">
+					{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-3 %}
+				</div>			
+			</div>
+		</div>
+		<div class="s-items-banner__col-b l-grid__col_lg-2 l-grid__col-6">
+			{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-4 %}
+		</div>
+		<div class="s-items-banner__col-b l-grid__col_lg-2 l-grid__col-6">
+			{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-5 %}
+		</div>
+		<div class="s-items-banner__col l-grid__col_lg-4">
+			<div class="c-block-item__img-cont">
+				{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-6 %}
+			</div>			
+			<div class="c-block-item">
+				<div class="c-block-item__l-grid l-grid">
+					<div class="c-block-item__col l-grid__col-6">
+						{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-7 %}
+					</div>
+					<div class="c-block-item__col l-grid__col-6">
+						{% render 'c-item-link', link:section.settings.link logo:section.settings.logo logo_text:section.settings.logo_text image:section.settings.image-8 %}
+					</div>					
+				</div>
+			</div>
+		</div>		
+	</div>
+	{% if section.settings.btn_link != blank %}
+	<div class="s-items-banner__footer">
+		<a href="{{section.settings.btn_link}}" class="s-items-banner__btn">{{section.settings.btn_text}}</a>
+	</div>
+	{% endif %}	
+</div> 
+
+
+{% schema %}
+{
+	"name": "Items banner",
+	"tag": "section",
+	"settings": [			
+		 {
+			"type": "image_picker",
+			"id": "image-1",
+			"label": "Image1",
+			"info": "Recommended image size 267x267."
+		 },		 
+		 {
+			"type": "image_picker",
+			"id": "image-2",
+			"label": "Image2",
+			"info": "Recommended image size 267x267."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "image-3",
+			"label": "Image3",
+			"info": "Recommended image size 533x267."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "image-4",
+			"label": "Image4",
+			"info": "Recommended image size 267x534."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "image-5",
+			"label": "Image5",
+			"info": "Recommended image size 267x534."
+		 },
+		 {
+			"type": "image_picker",
+			"id": "image-6",
+			"label": "Image6",
+			"info": "Recommended image size 533x267."
+		 },	
+		 {
+			"type": "image_picker",
+			"id": "image-7",
+			"label": "Image7",
+			"info": "Recommended image size 267x267."
+		 },		 
+		 {
+			"type": "image_picker",
+			"id": "image-8",
+			"label": "Image8",
+			"info": "Recommended image size 267x267."
+		 },		 		 
+		 {
+			"type": "image_picker",
+			"id": "logo",
+			"label": "Logo Image"			
+		 },
+		 {
+			"type": "text",
+			"id": "logo_text",
+			"label": "Logo text"			
+		 },
+		 {
+			"type": "url",
+			"id": "link",
+			"label": "Item link"
+		 },		 
+		 {
+			"type": "text",
+			"id": "btn_text",
+			"label": "Button text"			
+		 },
+		 {
+			"type": "url",
+			"id": "btn_link",
+			"label": "Button link"
+		 }				  
+ ],
+	"presets": [
+		{
+			"name": "Items banner"
+		}
+	]
+}
+{% endschema %}
