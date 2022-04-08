@@ -1,0 +1,45 @@
+.c-item-link {
+  height: 100%;
+  display: block;
+  overflow: hidden;
+
+  &:hover &__logo-cont {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__logo-cont {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: rgb(100 194 158 / 50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity $baseduration ease, visibility $baseduration ease;
+  }
+
+  &__logo-text {
+    margin: 8px 0 0;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+  }
+
+  &__big-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}

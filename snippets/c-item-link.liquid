@@ -1,0 +1,13 @@
+<a href="{{ link }}" class="c-item-link">
+	{% if logo != blank %} 
+	<span class="c-item-link__logo-cont">
+		<img src="{{ logo | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="c-item-link__logo" loading="lazy">
+		{% if logo_text != blank %}
+			<span class="c-item-link__logo-text">{{logo_text}}</span>
+		{% endif %}
+	</span>
+	{% endif %}
+	{% if image != blank %} 					
+		<img src="{{ image | image_url: width: 1067, height: 600 , format: 'pjpg' }}" alt="{{ product.title }}" width="1067" height="600"  class="c-item-link__big-img" loading="lazy">
+	{% endif %}				
+</a>		

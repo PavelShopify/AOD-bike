@@ -1,16 +1,7 @@
 <div class="s-brand-banner2">
 	<div class="s-brand-banner2__l-grid l-grid {% if section.settings.layout == 'big_image_second' %} s-brand-banner2__l-grid_grid-reverse{% endif %}">
-		<div class="s-brand-banner2__col l-grid__col_lg-4 ">
-			<a href="{{ section.settings.link }}" class="s-brand-banner2__link">
-				{% if section.settings.logo != blank %} 
-				<span class="s-brand-banner2__logo-cont">
-					<img src="{{ section.settings.logo | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="s-brand-banner2__logo" loading="lazy">
-				</span>
-				{% endif %}
-				{% if section.settings.big_image != blank %} 					
-					<img src="{{ section.settings.big_image | image_url: width: 533, height: 600 , format: 'pjpg' }}" alt="{{ product.title }}" width="533" height="600"  class="s-brand-banner2__big-img" loading="lazy">
-				{% endif %}				
-			</a>			
+		<div class="s-brand-banner2__col-b l-grid__col_lg-4 ">
+			{% render 'c-item-link', link:section.settings.link logo:section.settings.logo image:section.settings.big_image %}		
 		</div>		
 		<div class="s-brand-banner2__col l-grid__col_lg-4">
 			<div class="s-brand-banner2__content">
@@ -22,17 +13,8 @@
 				</div>
 			{% endif %}				
 		</div>
-		<div class="s-brand-banner2__col l-grid__col_lg-4">				
-			<a href="{{ section.settings.link }}" class="s-brand-banner2__link">
-				{% if section.settings.logo != blank %} 
-				<span class="s-brand-banner2__logo-cont">
-					<img src="{{ section.settings.logo | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="s-brand-banner2__logo" loading="lazy">
-				</span>
-				{% endif %}
-				{% if section.settings.big_image2 != blank %} 					
-					<img src="{{ section.settings.big_image2 | image_url: width: 533, height: 600 , format: 'pjpg' }}" alt="{{ product.title }}" width="533" height="600"  class="s-brand-banner2__big-img" loading="lazy">
-				{% endif %}				
-			</a>					
+		<div class="s-brand-banner2__col-b l-grid__col_lg-4">				
+			{% render 'c-item-link', link:section.settings.link logo:section.settings.logo image:section.settings.big_image2 %}			
 		</div>
 	</div>
 	

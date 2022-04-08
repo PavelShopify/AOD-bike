@@ -8,3 +8,4 @@ const swiper = new Swiper(".s-text-slider__swiper", {
 	slidesPerView: 1,	
 
 });
+
