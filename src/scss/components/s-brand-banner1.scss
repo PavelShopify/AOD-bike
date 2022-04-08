@@ -11,16 +11,15 @@
 
   &__col {
     padding: 0;
-  } 
-  
+  }
+
   &__col-b {
     position: relative;
     padding: 0 0 50%;
-
     @include media-breakpoint-up(lg) {
       padding: 0;
-    } 
-  }  
+    }
+  }
 
   &__content {
     text-align: center;
