@@ -102,6 +102,18 @@
       ],
       "settings": {
       }
+    },
+    "1649428274cfa18d30": {
+      "type": "s-items-banner",
+      "settings": {
+        "image-1": "shopify:\/\/shop_images\/items-banner-img-01.jpg",
+        "image-2": "shopify:\/\/shop_images\/items-banner-img-02.jpg",
+        "image-3": "shopify:\/\/shop_images\/items-banner-img-03.jpg",
+        "logo_text": "",
+        "link": "",
+        "btn_text": "",
+        "btn_link": ""
+      }
     }
   },
   "order": [
@@ -110,6 +122,7 @@
     "brand-banner1",
     "16490718062676bc6a",
     "1649193139e7e0e58b",
-    "swiper-slider"
+    "swiper-slider",
+    "1649428274cfa18d30"
   ]
 }
