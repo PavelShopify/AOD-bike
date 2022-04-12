@@ -2,7 +2,12 @@
 @function str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
   @if $index {
-    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
   }
   @return $string;
 }
@@ -31,111 +36,7 @@
   width: 100%;
   height: 100%;
 }
-@include modifier(txt-red, false) {
-  color: $red;
-}
-@include modifier(txt-light-gree, false) {
-  color: $light-green;
-}
-@include modifier(txt-dark-green, false) {
-  color: $dark-green;
-}
-@include modifier(txt-blue, false) {
-  color: $blue;
-}
-@include modifier(bg-red, false) {
-  background-color: $red;
-}
-@include modifier(bg-light-green, false) {
-  background-color: $light-green;
-}
-@include modifier(bg-dark-green, false) {
-  background-color: $dark-green;
-}
-@include modifier(bg-blue, false) {
-  background-color: $blue;
-}
-@include modifier(bg-dark-blue, false) {
-  background-color: $dark-blue;
-}
-@include modifier(bg-yellow, false) {
-  background-color: $yellow;
-}
-@include modifier(bg-light-yellow, false) {
-  background-color: $light-yellow;
-}
-@include modifier(bg-black, false) {
-  background-color: $black;
-}
-@include modifier(bg-light-black, false) {
-  background-color: $light-black;
-}
-@include modifier(bg-dark-gray, false) {
-  background-color: $dark-gray;
-}
-@include modifier(bg-gray, false) {
-  background-color: $gray;
-}
-@include modifier(bg-medium-gray, false) {
-  background-color: $medium-gray;
-}
-@include modifier(bg-light-gray, false) {
-  background-color: $light-gray;
-}
-@include modifier(bg-extra-light-gray, false) {
-  background-color: $extra-light-gray;
-}
-@include modifier(bg-white, false) {
-  background-color: $white;
-}
-@include modifier(txt-red, false) {
-  color: $red;
-}
-@include modifier(txt-light-gree, false) {
-  color: $light-green;
-}
-@include modifier(txt-dark-green, false) {
-  color: $dark-green;
-}
-@include modifier(txt-blue, false) {
-  color: $blue;
-}
-@include modifier(txt-dark-blue, false) {
-  color: $dark-blue;
-}
-@include modifier(txt-yellow, false) {
-  color: $yellow;
-}
-@include modifier(txt-light-yellow, false) {
-  color: $light-yellow;
-}
-@include modifier(txt-black, false) {
-  color: $black;
-}
-@include modifier(txt-dark-gray, false) {
-  color: $dark-gray;
-}
-@include modifier(txt-gray, false) {
-  color: $gray;
-}
-@include modifier(txt-medium-gray, false) {
-  color: $medium-gray;
-}
-@include modifier(txt-light-gray, false) {
-  color: $light-gray;
-}
-@include modifier(txt-extra-light-gray, false) {
-  color: $extra-light-gray;
-}
-@include modifier(txt-white, false) {
-  color: $white;
-}
-@include modifier(font-base, false) {
-  font-family: $font-base;
-}
-@include modifier(font-heading, false) {
-  font-family: $font-heading;
-}
+
 @include modifier(txt-lg, false) {
   font-size: 18px;
 }

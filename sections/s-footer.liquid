@@ -1,5 +1,5 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+<!-- {{ 'section-footer.css' | asset_url | stylesheet_tag }} -->
 <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -36,9 +36,12 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding s-footer">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
-    <div class="footer__content-top page-width">
+    <div class="footer__content-top page-width s-footer__l-container l-container">
+      <div class="s-footer__logo-cont">
+        <img src="https://cdn.shopify.com/s/files/1/0611/1831/6732/files/logo.png?v=1648569280" alt="{{ product.title }}" width="94" height="85"  class="s-footer__logo" loading="lazy">
+      </div>
       {%- if section.blocks.size > 0 -%}
         {%- liquid
           if section.blocks.size == 9
@@ -48,7 +51,7 @@
           elsif section.blocks.size > 4
             assign footer_grid_class = 'grid--3-col-tablet'
           endif
-        -%}
+        -%}       
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
@@ -96,21 +99,21 @@
         </div>
       {%- endif -%}
 
-      <div class="footer-block--newsletter">
+      <div class="footer-block--newsletter">       
         {%- if section.settings.newsletter_enable -%}
-          <div class="footer-block__newsletter">
+          <div class="footer-block__newsletter"> 
             {%- if section.settings.newsletter_heading != blank -%}
-              <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-            {%- endif -%}
+              <h2 class="footer-block__heading s-footer__heading">{{ section.settings.newsletter_heading | escape }}</h2>
+            {%- endif -%}           
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
+                <div class="field s-footer__field">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
                     name="contact[email]"
-                    class="field__input"
+                    class="field__input s-footer__input"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
@@ -125,12 +128,9 @@
                     {% endif %}
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
-                  >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                    {{ 'newsletter.label' | t }}
-                  </label>
-                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                    {% render 'icon-arrow' %}
+                  >                  
+                  <button type="submit" class="newsletter-form__button field__button s-footer__form-button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                    Go
                   </button>
                 </div>
                 {%- if form.errors -%}
