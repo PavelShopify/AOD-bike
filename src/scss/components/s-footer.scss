@@ -1,9 +1,19 @@
 .s-footer {
+  padding-top: 0;
+  padding-bottom: 60px;
   text-align: center;
 
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 103px;
+  }
+
   &__l-container {
-    margin: 72px auto 111px;
-    max-width: 600px;
+    margin: 60px auto;
+
+    @include media-breakpoint-up(md) {
+      margin: 110px auto;
+      max-width: 600px;
+    }
   }
 
   &__logo-cont {
@@ -37,11 +47,17 @@
 
   &__field {
     display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
+
   }
 
   &__input {
     flex: 1 1 100%;
-    margin: 0 8px 0 0;
+    margin: 0 0 40px 0;
     font-size: 20px;
     font-weight: 400;
     font-stretch: normal;
@@ -50,15 +66,20 @@
     letter-spacing: normal;
     padding-left: 28px;
     border: 1px solid $medium-light-gray;
+    height: 69px;    
 
     &::placeholder {
       color: $medium-dark-gray;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin: 0 8px 0 0;
     }
   }
 
   &__form-button.field__button {
     height: 69px;
-    width: 126px;
+    width: 100%;
     color: $white;
     border: none;
     font-size: 24px;
@@ -69,6 +90,7 @@
     letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
+   
 
     &:not(:focus-visible):not(.focused) {
       background-color: $tiffany;
@@ -76,6 +98,10 @@
 
     &:hover {
       cursor: pointer;
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 126px;
     }
   }
 }
