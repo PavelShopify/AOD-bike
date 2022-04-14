@@ -41,7 +41,7 @@
 		<div class="footer__content-top page-width s-footer__l-container l-container">
 			{%- if section.settings.logo_image != blank -%}
 				<div class="s-footer__logo-cont">
-					<img src="{{ section.settings.logo_image | image_url: width: 94, height: 85, format: 'pjpg' }}" alt="{{ product.title }}" width="94" height="85"  class="s-footer__logo" loading="lazy">
+					<img src="{{ section.settings.logo_image | image_url: width: 94, height: 85 }}" alt="{{ product.title }}" width="94" height="85"  class="s-footer__logo" loading="lazy">
 				</div>
 			{%- endif -%}
 			{%- if section.blocks.size > 0 -%}
