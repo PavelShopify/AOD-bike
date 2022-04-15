@@ -26,11 +26,25 @@
         "title": "vintage Oliva",
         "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
       }
+    },
+    "1650039775792cd9b5": {
+      "type": "s-brand-banner1",
+      "settings": {
+        "big_image": "shopify:\/\/shop_images\/brand-banner2-img-01.jpg",
+        "layout": "big_image_second",
+        "image": "shopify:\/\/shop_images\/brand-banner2-img-02.jpg",
+        "logo": "shopify:\/\/shop_images\/logo-banner2.png",
+        "link": "shopify:\/\/collections",
+        "icon": "shopify:\/\/shop_images\/icon-fork1.png",
+        "title": "La Boriosa",
+        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
+      }
     }
   },
   "order": [
     "16500396617ce77356",
     "16500397150677c6e0",
-    "165003972131c39e03"
+    "165003972131c39e03",
+    "1650039775792cd9b5"
   ]
 }
