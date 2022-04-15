@@ -1,24 +1,13 @@
 {
   "sections": {
-    "1650038277fc8a7623": {
-      "type": "featured-blog",
+    "16500396617ce77356": {
+      "type": "s-main-banner",
       "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/main-banner.jpg"
       }
     }
   },
   "order": [
-    "1650038277fc8a7623"
+    "16500396617ce77356"
   ]
 }
