@@ -1,134 +1,24 @@
 {
   "sections": {
-    "16485632729642b590": {
-      "type": "s-main-banner",
+    "1650038277fc8a7623": {
+      "type": "featured-blog",
       "settings": {
-        "image": "shopify:\/\/shop_images\/main-banner.jpg"
-      }
-    },
-    "rich-text": {
-      "type": "s-rich-text",
-      "settings": {
-        "icon": "shopify:\/\/shop_images\/icon-chain3.png",
-        "title": "A new generation of vintage bike",
-        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <\/p>"
-      }
-    },
-    "brand-banner1": {
-      "type": "s-brand-banner1",
-      "settings": {
-        "big_image": "shopify:\/\/shop_images\/brand-banner1-img-01.jpg",
-        "layout": "big_image_first",
-        "image": "shopify:\/\/shop_images\/brand-banner1-img-02.jpg",
-        "logo": "shopify:\/\/shop_images\/logo-banner1.png",
-        "link": "#",
-        "icon": "shopify:\/\/shop_images\/icon-frame.png",
-        "title": "Vintage oliva",
-        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
-      }
-    },
-    "16490718062676bc6a": {
-      "type": "s-brand-banner1",
-      "settings": {
-        "big_image": "shopify:\/\/shop_images\/brand-banner2-img-01.jpg",
-        "layout": "big_image_second",
-        "image": "shopify:\/\/shop_images\/brand-banner2-img-02.jpg",
-        "logo": "shopify:\/\/shop_images\/logo-banner2.png",
-        "link": "#",
-        "icon": "shopify:\/\/shop_images\/icon-crankset.png",
-        "title": "La boriosa",
-        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
-      }
-    },
-    "1649193139e7e0e58b": {
-      "type": "s-brand-banner2",
-      "settings": {
-        "big_image": "shopify:\/\/shop_images\/brand-banner3-img-01.jpg",
-        "layout": "big_image_first",
-        "image": "shopify:\/\/shop_images\/brand-banner3-img-03.jpg",
-        "logo": "shopify:\/\/shop_images\/logo-banner3.png",
-        "link": "#",
-        "icon": "shopify:\/\/shop_images\/icon-fork.png",
-        "title": "Retro bike - M. Hulot",
-        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>",
-        "big_image2": "shopify:\/\/shop_images\/brand-banner3-img-02.jpg"
-      }
-    },
-    "swiper-slider": {
-      "type": "s-text-slider",
-      "blocks": {
-        "0ba0d207-7940-4612-b9a4-6bc1c470abec": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
-            "heading": "AOD New York  @aod",
-            "heading_grey": "\/  35 min",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet."
-          }
-        },
-        "1bf6f7d4-f1f1-46cf-90a0-82f5007dcc57": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
-            "heading": "AOD New York  @aod",
-            "heading_grey": "\/  40 min",
-            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In alias fuga recusandae optio eaque rerum autem officiis facere velit aperiam eum, consectetur, nostrum aliquam dolore mollitia nam. Nihil, rem delectus?"
-          }
-        },
-        "d0d2fdf4-74f5-496c-8521-a27aa65beb4f": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
-            "heading": "AOD New York  @aod",
-            "heading_grey": "\/  1 h",
-            "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus tempore officia impedit pariatur facilis possimus neque, laboriosam aliquid voluptas eum reprehenderit repellendus corrupti eligendi velit veniam. Voluptates asperiores dolorem hic."
-          }
-        },
-        "6e17ebf8-47d1-4167-a6ee-e74d77058cfa": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
-            "heading": "AOD New York  @aod",
-            "heading_grey": "\/  1 h 20 min",
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eos repellat rerum, fugiat repudiandae quasi inventore itaque illo iusto doloremque!"
-          }
-        }
-      },
-      "block_order": [
-        "0ba0d207-7940-4612-b9a4-6bc1c470abec",
-        "1bf6f7d4-f1f1-46cf-90a0-82f5007dcc57",
-        "d0d2fdf4-74f5-496c-8521-a27aa65beb4f",
-        "6e17ebf8-47d1-4167-a6ee-e74d77058cfa"
-      ],
-      "settings": {
-      }
-    },
-    "1649428274cfa18d30": {
-      "type": "s-items-banner",
-      "settings": {
-        "image-1": "shopify:\/\/shop_images\/items-banner-img-01.jpg",
-        "image-2": "shopify:\/\/shop_images\/items-banner-img-02.jpg",
-        "image-3": "shopify:\/\/shop_images\/items-banner-img-03.jpg",
-        "image-4": "shopify:\/\/shop_images\/items-banner-img-04.jpg",
-        "image-5": "shopify:\/\/shop_images\/items-banner-img-05.jpg",
-        "image-6": "shopify:\/\/shop_images\/items-banner-img-06.jpg",
-        "image-7": "shopify:\/\/shop_images\/items-banner-img-07.jpg",
-        "image-8": "shopify:\/\/shop_images\/items-banner-img-08.jpg",
-        "logo": "shopify:\/\/shop_images\/icon-bicycle.png",
-        "logo_text": "Shop now",
-        "link": "#",
-        "btn_text": "Discover the shop",
-        "btn_link": "#"
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "16485632729642b590",
-    "rich-text",
-    "brand-banner1",
-    "16490718062676bc6a",
-    "1649193139e7e0e58b",
-    "swiper-slider",
-    "1649428274cfa18d30"
+    "1650038277fc8a7623"
   ]
 }
