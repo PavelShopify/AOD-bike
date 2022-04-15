@@ -65,10 +65,20 @@
             "heading_grey": "\/  35 min",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet."
           }
+        },
+        "29ae0e11-194c-47ee-ad15-55d66265b07d": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
+            "heading": "AOD New York @aod",
+            "heading_grey": "\/ 45 min",
+            "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+          }
         }
       },
       "block_order": [
-        "1396124c-5de7-4da7-b5fd-82851b6957ca"
+        "1396124c-5de7-4da7-b5fd-82851b6957ca",
+        "29ae0e11-194c-47ee-ad15-55d66265b07d"
       ],
       "settings": {
       }
