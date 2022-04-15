@@ -39,12 +39,27 @@
         "title": "La Boriosa",
         "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
       }
+    },
+    "16500399230b0979e9": {
+      "type": "s-brand-banner2",
+      "settings": {
+        "big_image": "shopify:\/\/shop_images\/brand-banner3-img-01.jpg",
+        "layout": "big_image_first",
+        "image": "shopify:\/\/shop_images\/brand-banner3-img-03.jpg",
+        "logo": "shopify:\/\/shop_images\/logo-banner3.png",
+        "link": "shopify:\/\/collections",
+        "icon": "shopify:\/\/shop_images\/icon-fork1.png",
+        "title": "",
+        "paragraph": "",
+        "big_image2": "shopify:\/\/shop_images\/brand-banner3-img-02.jpg"
+      }
     }
   },
   "order": [
     "16500396617ce77356",
     "16500397150677c6e0",
     "165003972131c39e03",
-    "1650039775792cd9b5"
+    "1650039775792cd9b5",
+    "16500399230b0979e9"
   ]
 }
