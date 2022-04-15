@@ -90,6 +90,7 @@
     letter-spacing: normal;
     text-align: center;
     text-transform: uppercase;
+    background-color: $tiffany;
 
     &:not(:focus-visible):not(.focused) {
       background-color: $tiffany;

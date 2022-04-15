@@ -6,7 +6,7 @@
 					<div class="s-text-slider__slide swiper-slide">
 						{% if block.settings.icon != blank %}
 							<div class="s-text-slider__icon-cont">
-								<img src="{{ block.settings.icon | img_url: 'master', format: 'pjpg' }}" alt="{{ product.title }}" class="s-text-slider__icon" loading="lazy">
+								<img src="{{ block.settings.icon | img_url: 'master' }}" alt="{{ product.title }}" class="s-text-slider__icon" loading="lazy">
 							</div>
 						{% endif %}
 						{% if block.settings.heading != blank or block.settings.heading_grey != blank %}

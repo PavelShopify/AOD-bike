@@ -1,11 +1,18 @@
 <div class="c-icon-text">
-	{% if section.settings.icon != blank %} 
-		<img src="{{ section.settings.icon | image_url: width: 52, height: 43 , format: 'pjpg' }}" alt="{{ product.title }}" width="52" height="43"  class="c-icon-text__icon" loading="lazy">
-	{% endif %}
-	{% if section.settings.title != blank %} 	
-		<h2 class="c-icon-text__title">{{ section.settings.title | escape }}</h2>
-	{% endif %}
-	{% if section.settings.paragraph != blank %} 
-		<div class="c-icon-text__desc {{ fontSize }}">{{ section.settings.paragraph }}</div>
-	{% endif %}	
+  {% if section.settings.icon != blank %}
+  <img
+    src="{{ section.settings.icon | image_url: width: 52, height: 43 }}"
+    alt="{{ product.title }}"
+    width="52"
+    height="43"
+    class="c-icon-text__icon"
+    loading="lazy"
+  />
+  {% endif %} {% if section.settings.title != blank %}
+  <h2 class="c-icon-text__title">{{ section.settings.title | escape }}</h2>
+  {% endif %} {% if section.settings.paragraph != blank %}
+  <div class="c-icon-text__desc {{ fontSize }}">
+    {{ section.settings.paragraph }}    
+  </div>
+  {% endif %}
 </div>
