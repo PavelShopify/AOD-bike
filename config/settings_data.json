@@ -158,7 +158,7 @@
       "s-header": {
         "type": "s-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
           "menu": "main-menu"
         }
       },
@@ -175,7 +175,7 @@
           "margin_top": 0,
           "padding_top": 36,
           "padding_bottom": 36,
-          "logo_image": "shopify:\/\/shop_images\/logo.png",
+          "logo_image": "shopify:\/\/shop_images\/icon-chain3.png",
           "store_name": "",
           "store_address": "",
           "store_email": ""
