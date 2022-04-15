@@ -106,9 +106,9 @@
         "image-8": "shopify:\/\/shop_images\/items-banner-img-08.jpg",
         "logo": "shopify:\/\/shop_images\/icon-bicycle.png",
         "logo_text": "shop now",
-        "link": "",
-        "btn_text": "",
-        "btn_link": ""
+        "link": "shopify:\/\/collections",
+        "btn_text": "DISCOVER THE SHOP",
+        "btn_link": "shopify:\/\/collections"
       }
     }
   },
