@@ -158,7 +158,7 @@
       "s-header": {
         "type": "s-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "menu": "main-menu"
         }
       },
