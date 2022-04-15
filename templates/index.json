@@ -53,6 +53,25 @@
         "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>",
         "big_image2": "shopify:\/\/shop_images\/brand-banner3-img-02.jpg"
       }
+    },
+    "16500401992aee7f31": {
+      "type": "s-text-slider",
+      "blocks": {
+        "1396124c-5de7-4da7-b5fd-82851b6957ca": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-twitter.png",
+            "heading": "AOD New York  @aod",
+            "heading_grey": "\/  35 min",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet."
+          }
+        }
+      },
+      "block_order": [
+        "1396124c-5de7-4da7-b5fd-82851b6957ca"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -60,6 +79,7 @@
     "16500397150677c6e0",
     "165003972131c39e03",
     "1650039775792cd9b5",
-    "16500399230b0979e9"
+    "16500399230b0979e9",
+    "16500401992aee7f31"
   ]
 }
