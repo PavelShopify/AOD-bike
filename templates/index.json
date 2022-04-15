@@ -13,10 +13,24 @@
         "title": "A NEW GENERATION OF VINTAGE BIKE",
         "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <\/p>"
       }
+    },
+    "165003972131c39e03": {
+      "type": "s-brand-banner1",
+      "settings": {
+        "big_image": "shopify:\/\/shop_images\/brand-banner1-img-01.jpg",
+        "layout": "big_image_first",
+        "image": "shopify:\/\/shop_images\/brand-banner1-img-02.jpg",
+        "logo": "shopify:\/\/shop_images\/logo-banner1.png",
+        "link": "#",
+        "icon": "shopify:\/\/shop_images\/icon-frame.png",
+        "title": "vintage Oliva",
+        "paragraph": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.<\/p>"
+      }
     }
   },
   "order": [
     "16500396617ce77356",
-    "16500397150677c6e0"
+    "16500397150677c6e0",
+    "165003972131c39e03"
   ]
 }
